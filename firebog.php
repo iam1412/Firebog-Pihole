@@ -4,7 +4,7 @@ firebog - https://firebog.net
 All type hosts - https://v.firebog.net/hosts/lists.php?type=all
 */
 
-$bebug = true;
+$debug = true;
 
 $url = "https://v.firebog.net/hosts/lists.php?type=all";
 $data = explode("\n", trim(file_get_contents($url)));
