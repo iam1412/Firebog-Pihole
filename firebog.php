@@ -15,7 +15,6 @@ if(is_array($data)){
         $single_data = explode("\n", trim(file_get_contents($single_url)));
         _print_r($single_data);
         $all_data = array_merge($all_data, $single_data);
-    break;
     }
 }
 
